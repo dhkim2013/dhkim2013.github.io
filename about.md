@@ -14,4 +14,4 @@ permalink: /about/
 
 ### Contact me
 
-[dhkim20157@gmail.com](mailto:dhkim20157@gmail.com)
+* [dhkim20157@gmail.com](mailto:dhkim20157@gmail.com)
