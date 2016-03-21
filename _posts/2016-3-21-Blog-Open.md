@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 블로그를 만들었습니다!
+title: BLOG OPEN~!!
 ---
 
 Blog open!
