@@ -3,8 +3,6 @@ layout: post
 title: You're up and running!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+블로그를 만들었습니다!
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Github Pages로 개인 블로그를 만들었습니다. Jekyll등을 설치하면서 삽질하기 싫어 jekyll-now를 포크해서 간단하게 만들어 봤습니다. 더 자세한 정보는 [여기](https://github.com/barryclark/jekyll-now)를 참고해주세요.
