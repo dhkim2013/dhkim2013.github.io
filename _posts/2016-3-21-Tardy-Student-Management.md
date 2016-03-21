@@ -7,9 +7,9 @@ TardyStudentManagementProgram
 
 반에서 지각비를 수거하게 되서 쉽게 관리하려고 만들어봤다.
 
-'''python
+```python
 
-\# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import sys
 
 try:
@@ -111,4 +111,4 @@ while True:
 
     else:
         print 'wrong input\n'
-'''
+```
