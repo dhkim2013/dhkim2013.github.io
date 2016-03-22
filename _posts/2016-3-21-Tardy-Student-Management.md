@@ -3,7 +3,7 @@ layout: post
 title: 지각비 관리 프로그램
 ---
 
-tardy_student_management_program
+tardy-student-management-program
 
 반에서 지각비를 수거하게 되서 쉽게 관리하려고 python2.7로 만들어봤다.
 
