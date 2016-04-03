@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 지각비 관리 프로그램
+title: 지각비 관리
 ---
 
 tardy-student-management-program
