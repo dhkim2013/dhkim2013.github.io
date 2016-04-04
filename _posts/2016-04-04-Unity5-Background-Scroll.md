@@ -13,7 +13,7 @@ Background-Image-Scroll-on-Unity
 
 ![camera](/images/maincamera.PNG)
 
->>Main Camera's Inspector view
+_-Main Camera's Inspector view_
 
 ![player](/images/player.PNG)
 
