@@ -10,7 +10,6 @@ Background-Image-Scroll-on-Unity
 ![구성](/images/comp.PNG)
 
 위와 같이 3가지 오브젝트를 사용했다.
-
 실질적으로 사용한 것은 카메라를 제외한 Player와 Background 오브젝트다.
 
 ![player](/images/player.PNG)
@@ -24,7 +23,6 @@ Background-Image-Scroll-on-Unity
 Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
 ```c#
-
 using UnityEngine;
 using System.Collections;
 
@@ -45,7 +43,6 @@ public class BackScroll : MonoBehaviour {
         myMaterial.mainTextureOffset = newOffset;
 	}
 }
-
 ```
 
-이렇게 하고 실행하면 배경 움직인다.
+이렇게 하고 실행하면 배경이 움직인다.
