@@ -11,7 +11,8 @@ Background-Image-Scroll-on-Unity
 
 위와 같이 3가지 오브젝트를 사용했다.
 
-실질적으로 사용한 것은 카메라를 제외한 Player와 Background 오브젝트다.
+![camera](/images/maincamera.PNG)
+-Main Camera's Inspector view
 
 ![player](/images/player.PNG)
 
