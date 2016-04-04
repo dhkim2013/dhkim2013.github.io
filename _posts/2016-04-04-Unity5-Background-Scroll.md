@@ -21,6 +21,13 @@ Background-Image-Scroll-on-Unity
 
 -Background's Inspector view
 
+![playerimage](/images/ship.PNG)
+-Player 오브젝트의 이미지 설정
+
+![backgroundimage](/images/backmaterial.PNG)
+-Background 오브젝트의 Material 설정
+
+
 Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
 ```c#
