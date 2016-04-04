@@ -27,8 +27,8 @@ _-Player 오브젝트의 이미지 설정_
 
 ![backgroundimage](/images/backmaterial.PNG)
 
-_-Background 오브젝트의 Material 설정_
-    Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
+_-Background 오브젝트의 Material 설정_....
+Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
 ```c#
 using UnityEngine;
