@@ -3,7 +3,7 @@ layout: post
 title: unity5 게임 배경 이동
 ---
 
-#Background-Image-Scroll-on-Unity
+Background-Image-Scroll-on-Unity
 
 유니티5로 게임 배경화면 이동을 구현했다.
 
