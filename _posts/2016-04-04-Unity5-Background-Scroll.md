@@ -7,17 +7,17 @@ Background-Image-Scroll-on-Unity
 
 유니티5로 게임 배경화면 이동을 구현했다.
 
-![구성](/images/comp.png)
+![구성](/images/comp.PNG)
 
 위와 같이 3가지 오브젝트를 사용했다.
 
 실질적으로 사용한 것은 카메라를 제외한 Player와 Background 오브젝트다.
 
-![player](/images/player.png)
+![player](/images/player.PNG)
 
 -Player's Inspector view
 
-![background](/images/background.png)
+![background](/images/background.PNG)
 
 -Background's Inspector view
 
