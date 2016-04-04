@@ -23,7 +23,7 @@ Background-Image-Scroll-on-Unity
 
 Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
-```C#
+```c#
 
 using UnityEngine;
 using System.Collections;
