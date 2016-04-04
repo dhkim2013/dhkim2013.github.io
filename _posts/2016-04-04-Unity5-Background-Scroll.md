@@ -22,9 +22,11 @@ Background-Image-Scroll-on-Unity
 -Background's Inspector view
 
 ![playerimage](/images/ship.PNG)
+
 -Player 오브젝트의 이미지 설정
 
 ![backgroundimage](/images/backmaterial.PNG)
+
 -Background 오브젝트의 Material 설정
 
 
