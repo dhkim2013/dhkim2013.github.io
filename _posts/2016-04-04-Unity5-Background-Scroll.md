@@ -5,7 +5,7 @@ title: unity5 게임 배경 이동
 
 Background-Image-Scroll-on-Unity
 
-유니티5로 게임 배경화면 이동을 구현했다. testasd
+유니티5로 게임 배경화면 이동을 구현했다.
 
 ![구성](/images/comp.PNG)
 
@@ -28,10 +28,6 @@ Background-Image-Scroll-on-Unity
 ![backgroundimage](/images/backmaterial.PNG)
 
 -Background 오브젝트의 Material 설정
-
-
-
-
 
 Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
