@@ -15,11 +15,11 @@ Background-Image-Scroll-on-Unity
 
 ![player](/images/player.png)
 
->Player's Inspector view
+-Player's Inspector view
 
 ![background](/images/background.png)
 
->Background's Inspector view
+-Background's Inspector view
 
 Background 오브젝트에 있는 스크립트의 내용은 아래와 같다.
 
