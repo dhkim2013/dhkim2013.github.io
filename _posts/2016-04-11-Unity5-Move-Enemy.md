@@ -26,17 +26,17 @@ Max Size는 내가 사용할 이미지의 크기가 32*16 사이즈라서 32로 
 
 이후에 Sprite Editor를 눌러서 자신의 이미지에 따라 알맞게 이미지를 슬라이스 해주면 된다.
 
-![2](images/041102.PNG)
+![2](/images/041102.PNG)
 
 _-Project view_
 
 설정을 마친 후에 Project view에서
 
-![3](images/041103.PNG)
+![3](/images/041103.PNG)
 
 자신이 설정한 이미지의 오른쪽에 있는 재생모양을 누르면
 
-![4](images/041104.PNG)
+![4](/images/041104.PNG)
 
 위와 같이 이미지가 잘 나누어 졌는지 확인이 가능하다.
 
@@ -45,9 +45,9 @@ _-Project view_
 
 Enemy라고 저장을 하면 
 
-![5](images/041107.PNG)
+![5](/images/041107.PNG)
 
-![6](images/041108.PNG)
+![6](/images/041108.PNG)
 
 위와 같이 파일들이 Project view에 생기며 Hierarchy view에도 Enemy라는 오브젝트가 생긴다.
 
@@ -55,11 +55,11 @@ Enemy를 화면에 배치한 후에 play하면 Enemy의 애니메이션이 실�
 
 애니메이션의 변환 속도를 조절하고 싶으면
 
-![7](images/041108.PNG)
+![7](/images/041108.PNG)
 
 위의 파일을 더블클릭 해주면 
 
-![8](images/041105.PNG)
+![8](/images/041105.PNG)
 
 위와 같은 Animator view가 생긴다.
 
@@ -67,7 +67,7 @@ Alt를 누르고 마우스를 클릭한 채로 마우스를 움직이면 Animato
 
 위의 사진과 같은 Enemy를 누르면 
 
-![9](images/041106.PNG)
+![9](/images/041106.PNG)
 
 오른쪽에 위와 같은 Inspector view가 생길 것이다.
 
