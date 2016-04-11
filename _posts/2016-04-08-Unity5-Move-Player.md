@@ -69,8 +69,8 @@ public class Player : MonoBehaviour {
     public float moveSpeed = 0.5f;
 
     void moveControl() {
-        float movex = moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
-        transform.Translate(movex, 0, 0);
+        float moveX = moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
+        transform.Translate(moveX, 0, 0);
     }
 
 	// Use this for initialization
