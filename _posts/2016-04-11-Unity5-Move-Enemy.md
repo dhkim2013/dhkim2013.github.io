@@ -83,7 +83,8 @@ public class Enemy : MonoBehaviour {
 
     public float moveSpeed = 0.5f;
 
-    void moveControl() {
+    void moveControl()
+    {
         float yMove = moveSpeed * Time.deltaTime;
         transform.Translate(0, -yMove, 0);
     }
