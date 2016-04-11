@@ -23,7 +23,8 @@ public class Player : MonoBehaviour {
 
     public float moveSpeed = 0.5f;
 
-    void moveControl() {
+    void moveControl()
+    {
         float moveX = moveSpeed * Time.deltaTime;
         transform.Translate(moveX, 0, 0);
     }
@@ -68,7 +69,8 @@ public class Player : MonoBehaviour {
 
     public float moveSpeed = 0.5f;
 
-    void moveControl() {
+    void moveControl()
+    {
         float moveX = moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
         transform.Translate(moveX, 0, 0);
     }
