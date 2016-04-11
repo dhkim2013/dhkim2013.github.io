@@ -35,7 +35,7 @@ Enemy는 Circle Collidder 2D가 아닌 Box Collider 2D를 했다.
 
 두 컴포넌트는 충돌판정을 받는 모양만 다르다.
 
-설정을 마쳤으면 기존 Player 객체에 연결되어 있는 스크립트를 수정하면 끝난다.
+설정을 마쳤으면 기존 Player 객체에 연결되어 있는 스크립트를 아래와 같이 수정하면 끝난다.
 
 ```c#
 using UnityEngine;
