@@ -3,7 +3,7 @@ layout: post
 title: BLOG OPEN~!!
 ---
 
-Blog open!
+Blog-Open
 
 Github Pages로 개인 블로그를 만들었습니다.
 
