@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Execute-the-explosion-animation-when-the-objects-collide
+title: unity5 폭발효과 추가
 ---
+
+Execute-the-explosion-animation-when-the-objects-collide
 
 unity5로 오브젝트가 충돌하면 폭발하는 애니메이션이 재생되도록 구현했다.
 
