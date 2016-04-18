@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Shoot-Laser
+title: unity5 레이저 발사
 ---
+
+Shoot-Laser
 
 이번에는 플레이어가 레이저를 발사하는 것을 구현했다.
 
