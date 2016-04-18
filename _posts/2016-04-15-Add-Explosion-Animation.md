@@ -27,7 +27,7 @@ unity5로 오브젝트가 충돌하면 폭발하는 애니메이션이 재생되
 using UnityEngine;
 using System.Collections;
 
-public class explosion : MonoBehaviour {
+public class Explosion : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -63,7 +63,7 @@ public class explosion : MonoBehaviour {
 using UnityEngine;
 using System.Collections;
 
-public class player : MonoBehaviour {
+public class Player : MonoBehaviour {
 
     public float moveSpeed = 0.5f;
     public GameObject explosionPrefab;
