@@ -104,4 +104,4 @@ public class Player : MonoBehaviour
 
 그 다음 아래 사진과 같이 Inspector view에서 Player (Script)에 Laser Prefab에 Laser 프리팝을 연결해주면 끝난다.
 
-![2](/images/04181-2)
+![2](/images/04181-2.PNG)
