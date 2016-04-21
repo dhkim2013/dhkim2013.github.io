@@ -3,7 +3,7 @@ layout: post
 title: unity5 레이저 설정
 ---
 
-Unity5-Setting-Laser
+Set-Laser
 
 이번에는 저번에 만들었던 레이저에 약간의 기능을 추가할 것이다.
 
