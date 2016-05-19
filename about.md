@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 * 김동현
-* web front / game developer
+* web
 
 ### More Information
 
-* 2015년에 선린인터넷고등학교에 입학하였습니다.
+* 2015년 선린인터넷고등학교 입학
 
 ### Contact me
 
