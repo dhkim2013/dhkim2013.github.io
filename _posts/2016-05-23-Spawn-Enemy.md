@@ -1,6 +1,6 @@
 ---
 layout: post
-title: unity5 spawn enemy
+title: unity5 enemy 랜덤 생성
 ---
 
 Enemy-Spawn
