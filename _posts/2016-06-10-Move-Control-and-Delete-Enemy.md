@@ -80,6 +80,8 @@ public class Player : MonoBehaviour
 }
 ```
 
+참고로 위에 소스에서 사용한 Mathf.Clamp01()은 인자로 들어오는 값을 무조건 0과 1사이로 제한두는 함수다.
+
 Enemy 삭제는 OnBecamInvisible을 사용하지 않고 다른 방법으로 삭제할 것이다.
 
 빈 게임오브젝트를 추가하고 Rigidbody 2D와 Box Collider 2D 컴포넌트를 추가해주고,
