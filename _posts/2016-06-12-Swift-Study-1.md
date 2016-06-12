@@ -37,7 +37,7 @@ var a : [String : String] = ["hi" : "good"]
 ## 빈 딕셔너리 선언
 
 ```swift
-var a : [String :String]()
+var a : [String : String]()
 ```
 
 ## if문
