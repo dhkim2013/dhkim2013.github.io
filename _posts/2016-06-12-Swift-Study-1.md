@@ -1,9 +1,9 @@
 ---
 layout: post
-title: swift study
+title: swift study 1일차
 ---
 
-Swift-Study
+Swift-Study-Day1
 
 변수 선언
 var a : Int
