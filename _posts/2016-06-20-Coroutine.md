@@ -3,6 +3,8 @@ layout: post
 title: unity5 코루틴
 ---
 
+Coroutine
+
 이번엔 코루틴을 사용해서 게임이 시작하기 전에 Ready라는 텍스트가 3번 깜빡이고
 
 시작하게 만들 것이다.
