@@ -30,7 +30,7 @@ Coroutine
 
 Text 오브젝트를 만들고 자신이 원하는 대로 설정을 하고
 
-GameTextControl이라는 cs스크립트를 만들어서 Canvas에 연결해준다.
+GameTextControl이라는 cs 스크립트를 만들어서 Canvas에 연결해준다.
 
 그리고 아래 소스를 적어준다.
 
