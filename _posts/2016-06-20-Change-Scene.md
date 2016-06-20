@@ -37,6 +37,12 @@ public class SceneManager : MonoBehaviour {
 ```
 위와 같이 소스를 적어준다.
 
+Application.LoadLevel() 함수는 Scene을 바꿔주는 함수다.
+
+매개변수에 바꿀 Scene의 이름을 적어주면 된다.
+
+위와 같이 작성하면 game이라는 이름의 Scene으로 전환된다.
+
 그리고 오브젝트 중에 Canvas 오브젝트가 있다면 
 
 한번 클릭을 해주고 Component - UI - Button을 통해서 버튼 오브젝트를 만들어 준다.
