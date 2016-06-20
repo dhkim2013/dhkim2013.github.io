@@ -43,9 +43,7 @@ Application.LoadLevel() 함수는 Scene을 바꿔주는 함수다.
 
 위와 같이 작성하면 game이라는 이름의 Scene으로 전환된다.
 
-그리고 오브젝트 중에 Canvas 오브젝트가 있다면 
-
-한번 클릭을 해주고 Component - UI - Button을 통해서 버튼 오브젝트를 만들어 준다.
+GameObject - UI - Button을 통해서 버튼 오브젝트를 만들어 준다.
 
 버튼 오브젝트의 Inspector view에 On Click () 부분에 None에
 
