@@ -184,39 +184,60 @@ public class Enemy : MonoBehaviour {
 using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour {
-    public int killScore = 100;
-    public float moveSpeed = 0.5f;
-    public GameObject explosionPrefab;
+public class SpawnManager : MonoBehaviour {
 
-    void moveControl()
+    Vector3[] positions = new Vector3[5];
+    public GameObject enemyPrefab;
+    public bool isSpawn = true;
+    public float spawnDelay = 1.5f;
+    float spawnTimer = 0f;
+    public static SpawnManager instance;
+
+    void Awake()
     {
-        float yMove = moveSpeed * Time.deltaTime;
-        transform.Translate(0, -yMove, 0);
+        if (SpawnManager.instance == null)
+        {
+            SpawnManager.instance = this;
+        }
     }
 
 	// Use this for initialization
 	void Start () {
-
+        CreatePosition();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        moveControl();
+        SpawnEnemy();
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Laser")
-        {
-            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-            SoundManager.instance.PlaySound();
-            Destroy(col.gameObject);
-            Destroy(this.gameObject);
-            GameManager.instance.AddScore(killScore);
+    void CreatePosition() {
+        float viewPosY = 1.2f;
+        float viewPosX = 0f;
+        float gapX = 1f / 6f;
+
+        for(int i = 0; i < positions.Length; i++) {
+            viewPosX = gapX + gapX * i;
+            Vector3 viewPos = new Vector3(viewPosX, viewPosY, 0);
+            Vector3 worldPos = Camera.main.ViewportToWorldPoint(viewPos);
+            worldPos.z = 0f;
+            positions[i] = worldPos;
         }
     }
 
+    void SpawnEnemy()
+    {
+        if (isSpawn)
+        {
+            if (spawnTimer > spawnDelay)
+            {
+                int rand = Random.Range(0, positions.Length);
+                Instantiate(enemyPrefab, positions[rand], Quaternion.identity);
+                spawnTimer = 0f;
+            }
+            spawnTimer += Time.deltaTime;
+        }
+    }
 }
 ```
 
